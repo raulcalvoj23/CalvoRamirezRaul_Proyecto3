@@ -1,0 +1,152 @@
+body{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+nav{
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #257FB3;
+	color: white;
+	padding: 15px;
+	text-shadow: 1px 1px 1px black;
+}
+
+nav a{
+	text-shadow: 1px 1px 1px black;
+	color: white;
+	text-decoration: none;
+}
+
+.type1:hover{background-color:lightblue;}
+
+#options section{
+	background-color: #257FB3;
+	width: 250px;
+	height: 100px;
+	padding: 10px;
+	margin: 33px;
+	cursor: pointer;
+}
+
+#options p{
+	margin-top: 38px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+
+#options a{
+	text-decoration: none;
+	color: white;
+	padding: 50px;
+}
+
+
+
+/*VENTANA MODAL*/
+
+h2{
+	margin-top: -30px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#contenidoRecursos select{
+	padding: 10px;
+	width: 250px;
+}
+
+#contenidoRecursos input{
+	cursor: pointer;
+	padding: 10px;
+	width: 150px;
+	border: none;
+	border-radius: 3px;
+	background-color: #257FB3;
+	color: white;
+}
+
+#contenidoRecursos p{
+	text-align: center;
+}
+
+
+.modalmask {
+	position: fixed;
+	font-family: Arial, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalmask:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalbox {
+	width: 250px;
+	position: relative;
+	padding: 50px 20px 13px 20px;
+	background: #fff;
+	border-radius: 3px;
+	-webkit-transition: all 500ms ease-in;
+	-moz-transition:all 500ms ease-in;
+	transition:all 500ms ease-in;
+}
+
+.movedown {
+	margin: 10% auto;
+}
+
+a.boxclose{
+	
+    float:right;
+    margin-top:-30px;
+    margin-right:-32px;
+    cursor:pointer;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;     
+}
+
+.boxclose:before {
+    background-image: url('img/close.png');
+}
+
+
+.icon{
+	background-image: url('img/select.png');
+}
+
+#divimagen {
+	float: right;
+	margin-top: -180px;
+	
+	
+}
+
+#divimagen img {
+	width: 550px;
+	height: 400px;
+}
